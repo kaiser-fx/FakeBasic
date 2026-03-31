@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <!-- Washing Machine Body -->
+    <path
+        android:fillColor="#2D4ECB"
+        android:pathData="M9,7 C7.9,7 7,7.9 7,9 L7,23 C7,24.1 7.9,25 9,25 L23,25 C24.1,25 25,24.1 25,23 L25,9 C25,7.9 24.1,7 23,7 L9,7 Z" />
+    <!-- Top Buttons -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,9.5 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13,9.5 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+    <!-- Drum/Door -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,17 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    <!-- Water inside Drum -->
+    <path
+        android:fillColor="#96A7FF"
+        android:pathData="M16,17 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <!-- Shine on Drum -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13,15 C13.5,14 15,13.5 16,13.5 L16,17 Z" />
+</vector>

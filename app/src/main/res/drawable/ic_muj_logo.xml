@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Laurel Wreath Left -->
+    <path
+        android:fillColor="#7B4B3A"
+        android:pathData="M60,160 C40,140 30,110 35,80 L40,85 C38,105 45,125 60,145 Z M45,130 L35,125 C30,110 32,95 40,85 L45,95 C40,105 40,115 45,130 Z M55,110 L45,105 C42,90 45,75 55,65 L60,75 C52,85 52,95 55,110 Z" />
+
+    <!-- Laurel Wreath Right -->
+    <path
+        android:fillColor="#7B4B3A"
+        android:pathData="M140,160 C160,140 170,110 165,80 L160,85 C162,105 155,125 140,145 Z M155,130 L165,125 C170,110 168,95 160,85 L155,95 C160,105 160,115 155,130 Z M145,110 L155,105 C158,90 155,75 145,65 L140,75 C148,85 148,95 145,110 Z" />
+
+    <!-- Main 'M' Symbol Body -->
+    <path
+        android:fillColor="#E85D04"
+        android:pathData="M65,55 L135,55 C145,55 150,60 150,70 L150,85 C150,90 145,95 135,90 L135,130 C135,140 125,140 125,130 L125,90 L110,90 L110,130 C110,140 100,140 100,130 L100,90 L85,90 L85,130 C85,140 75,140 75,130 L75,90 L65,90 C55,90 50,85 50,75 L50,70 C50,60 55,55 65,55 Z" />
+
+    <!-- Top Oval -->
+    <path
+        android:fillColor="#F48C06"
+        android:pathData="M100,15 C115,15 125,25 120,40 C115,50 100,55 85,45 C75,35 85,15 100,15 Z" />
+
+    <!-- Text area (Simulated) -->
+    <path
+        android:fillColor="#7B4B3A"
+        android:pathData="M70,175 L80,185 L120,185 L130,175 Z" />
+
+</vector>

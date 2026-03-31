@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardApp"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="#EEF2FF">
+        <ImageView
+            android:id="@+id/imgAppIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tvAppLabel"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center|top"
+        android:textSize="11sp"
+        android:textColor="#333333"
+        android:layout_marginTop="6dp"
+        android:maxLines="2"
+        android:ellipsize="end" />
+</LinearLayout>

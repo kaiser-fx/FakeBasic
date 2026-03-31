@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_blue">#1A47B8</color>
+    <color name="light_blue_bg">#EEF2FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_text">#888888</color>
+    <color name="dark_text">#111111</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="badge_red">#E53935</color>
+    <color name="nav_inactive">#C0C0C0</color>
+    <color name="surface_grey">#F3F4F6</color>
+    <color name="quick_action_bg">#F0F0F0</color>
+    <color name="profile_circle">#C4CFDD</color>
+</resources>

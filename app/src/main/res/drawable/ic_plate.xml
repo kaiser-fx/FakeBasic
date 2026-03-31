@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <!-- Plate -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1"
+        android:pathData="M16,16 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+    <!-- Inner Plate Ring -->
+    <path
+        android:strokeColor="#EEEEEE"
+        android:strokeWidth="0.5"
+        android:pathData="M16,16 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <!-- Fork -->
+    <path
+        android:fillColor="#D1D1D1"
+        android:pathData="M6,10 L6,16 C6,17 6.5,18 7.5,18 L7.5,24 L8.5,24 L8.5,18 C9.5,18 10,17 10,16 L10,10 L9.2,10 L9.2,14 L8.2,14 L8.2,10 L7.8,10 L7.8,14 L6.8,14 L6.8,10 Z" />
+    <!-- Knife -->
+    <path
+        android:fillColor="#D1D1D1"
+        android:pathData="M22,10 L22,18 C22,19 23,20 24,20 L24,24 L25,24 L25,10 C25,10 22,10 22,10 Z" />
+</vector>
