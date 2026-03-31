@@ -53,7 +53,7 @@ class ProfileActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.btnGithub.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com"))
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/kaiser-fx"))
             startActivity(intent)
         }
     }
