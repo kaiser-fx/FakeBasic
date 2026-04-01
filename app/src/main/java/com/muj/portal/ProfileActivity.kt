@@ -16,7 +16,7 @@ class ProfileActivity : AppCompatActivity() {
         binding = ActivityProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val amenities = arrayOf("BlueDove", "BlueSpring")
+        val amenities = arrayOf("Bluedove", "BlueSpring")
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, amenities)
         binding.autoCompleteAmenity.setAdapter(adapter)
 
@@ -24,7 +24,7 @@ class ProfileActivity : AppCompatActivity() {
         val sharedPref = getSharedPreferences("MUJ_PREFS", Context.MODE_PRIVATE)
         binding.etName.setText(sharedPref.getString("USER_NAME", ""))
         
-        val savedAmenity = sharedPref.getString("SELECTED_AMENITY", "BlueDove")
+        val savedAmenity = sharedPref.getString("SELECTED_AMENITY", "Bluedove")
         binding.autoCompleteAmenity.setText(savedAmenity, false)
 
         binding.btnSave.setOnClickListener {
