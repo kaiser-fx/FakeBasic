@@ -11,4 +11,4 @@ To change your name or change your mess option:
 ## Download link - [FakeBasic App](https://github.com/kaiser-fx/FakeBasic/releases/download/v1.0.0-beta/FakeBasic.apk)
 
 ---
-*This project is for educations and demonstration purposes.*
+*This project is for educational and demonstration purposes.*
